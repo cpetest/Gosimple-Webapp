@@ -1,4 +1,4 @@
-FROM 100.125.35.202:20202/cpe/alpine-glibc:latest
+FROM 100.125.54.127:20202/cpe/alpine-glibc:latest
 
 RUN mkdir -p /home/webapp/sample
 ADD main /home/webapp/sample/
