@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:latest
+FROM 100.79.1.215:20202/op_svc_servicestage/alpine-glibc:latest
 
 RUN mkdir -p /home/webapp/sample
 ADD main /home/webapp/sample/
